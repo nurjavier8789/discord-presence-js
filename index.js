@@ -3,18 +3,25 @@ const client = new RPC.Client({transport: "ipc"});
 
 
 const activity = {
-  details: "Waiting for opening game...",
+  details: "TEXT_HERE",
+  state: "testt",
+  timestamps: {
+    start: Date.now()
+  }, //kalau mau ada durasinya
+  
   assets: {
-    large_image: "loading",
-    large_text: "Waiting...",
-    small_image: "discord_verified",
-    small_text: "Verified"
+    large_image: "NAMA_GAMBAR",
+    large_text: "TEKS_TERSERAH",
+    small_image: "NAMA_GAMBAR",
+    small_text: "TEKS_TERSERAH"
   },
   buttons: [
+    //button ke 1
     {
-      "label": "Join my discord server",
-      "url": "https://discord.gg/gFuqDah"
+      "label": "Text_here", //tulisan yang akan muncul di buttonnya
+      "url": "https://discord.gg/gFuqDah" //link untuk buttonnya
     },
+    //button ke 2
     {
       "label": "Join Discord Server Nge game!",
       "url": "https://discord.gg/nge-game"
@@ -26,7 +33,7 @@ const activity = {
 
 client.on("ready", () => {
   client.request("SET_ACTIVITY", {pid: process.pid, activity: activity});
-  console.log("Done");
+  console.log("Done"); //untuk penanda kalau berjalan .js nya
 })
 
-client.login({ clientId: "847741995178131476" });
+client.login({ clientId: "CLIENT_ID" });
