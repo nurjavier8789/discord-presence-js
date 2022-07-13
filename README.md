@@ -53,6 +53,13 @@ Now you can continue to Coding!
 ## After Coding
 Now you can try to run it by type `node .` or `node (you files name).js`
 
+the result should be like this
+
+![aftercode](https://user-images.githubusercontent.com/70767613/178681880-822b4099-688c-414b-a8b6-940fd843ec37.png)
+![aftercode2](https://user-images.githubusercontent.com/70767613/178681891-bd653830-bbeb-4b8d-afeb-25df2b58fd1b.png)
+
+
+
 [^1]: make sure you uncheck the Hide Extension!
 ![precode4](https://user-images.githubusercontent.com/70767613/178677045-9cb197b4-75aa-4145-bc80-14a352b24812.png)
 
