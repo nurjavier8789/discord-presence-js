@@ -7,24 +7,24 @@ const activity = {
   state: "testt",
   timestamps: {
     start: Date.now()
-  }, //kalau mau ada durasinya
+  }, //if you want to add timer
   
   assets: {
-    large_image: "NAMA_GAMBAR",
-    large_text: "TEKS_TERSERAH",
-    small_image: "NAMA_GAMBAR",
-    small_text: "TEKS_TERSERAH"
+    large_image: "YOUR_IMAGE_NAME", //image name you make from discord devs website!
+    large_text: "IMAGE_TEXT", //this text will appear when you hovering the image
+    small_image: "YOUR_IMAGE_NAME",
+    small_text: "IMAGE_TEXT"
   },
   buttons: [
-    //button ke 1
+    //button 1
     {
-      "label": "Text_here", //tulisan yang akan muncul di buttonnya
-      "url": "https://discord.gg/gFuqDah" //link untuk buttonnya
+      "label": "Button1", //this text will appear on the button
+      "url": "https://google.com" //button link
     },
-    //button ke 2
+    //button 2
     {
-      "label": "Join Discord Server Nge game!",
-      "url": "https://discord.gg/nge-game"
+      "label": "Button2",
+      "url": "https://discord.gg"
     }
   ],
 
@@ -33,7 +33,7 @@ const activity = {
 
 client.on("ready", () => {
   client.request("SET_ACTIVITY", {pid: process.pid, activity: activity});
-  console.log("Done"); //untuk penanda kalau berjalan .js nya
+  console.log("Done"); //for make sure the code is working
 })
 
 client.login({ clientId: "CLIENT_ID" });
