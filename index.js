@@ -4,7 +4,7 @@ const client = new RPC.Client({transport: "ipc"});
 
 const activity = {
   details: "TEXT_HERE",
-  state: "testt",
+  state: "State", //optional
   timestamps: {
     start: Date.now()
   }, //if you want to add timer
