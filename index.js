@@ -36,4 +36,4 @@ client.on("ready", () => {
   console.log("Done"); //for make sure the code is working
 })
 
-client.login({ clientId: "CLIENT_ID" });
+client.login({ clientId: "CLIENT_ID" }); //client id is from your application at General Information tab
