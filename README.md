@@ -1,4 +1,4 @@
-# **Custom Discord Rich Presence** <sub>Source [Blob Project](https://github.com/Blob-Development)</sub>
+# **Custom Discord Rich Presence** <sub>Source [Blob Project](https://youtu.be/pPN1hyKF-t4)</sub>
 
 ## **Required packages**
 1. Discord RPC `npm i discord-rpc`
@@ -12,7 +12,7 @@
 <sub>2. Create New Application</sub>
 
 
-2. Create and name it whatever you want, it's up to you
+2. Create and name it whatever you want, it's up to you (this name will appear on your status "Playing `name`")
 
 ![discord tutor2](https://user-images.githubusercontent.com/70767613/178667828-c31f05c6-4358-4dd8-ae9a-d9eaaa278dc6.png)
 
@@ -35,7 +35,7 @@ You can check the custom discord rich presence through `Rich Presence>Visualiser
 ## Pre-Code
 1. Create new folder
 
-2. and open command prompt through the folder
+2. and open command prompt or powershell through the folder
 
 ![precode1](https://user-images.githubusercontent.com/70767613/178675166-850688db-9521-433a-b2a4-8d88cfc36153.png)
 or
@@ -43,7 +43,7 @@ or
 or you can copy paste the folder path
 ![precode3](https://user-images.githubusercontent.com/70767613/178675368-86a9e619-1aba-441b-84c7-189932192038.png)
 
-3. type `npm init -y` then install the package
+3. type `npm init` then install the package
 
 4. create new file and name it whatever you want with format `.js` [^1]
 
