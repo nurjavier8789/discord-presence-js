@@ -60,6 +60,14 @@ the result should be like this
 
 
 
+
+
+For `client.login` you can find it here!
+![Screenshot 2022-07-29 170123](https://user-images.githubusercontent.com/70767613/181735976-7e88875b-b73e-4af8-bd77-4daad93e009c.png)
+
+
+
+
 [^1]: make sure you uncheck the Hide Extension!
 ![precode4](https://user-images.githubusercontent.com/70767613/178677045-9cb197b4-75aa-4145-bc80-14a352b24812.png)
 
